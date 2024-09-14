@@ -1,0 +1,27 @@
+.container{
+background-color: #f4f4f4;
+border: 3px solid black;
+height: 500px;
+display: grid;
+grid-template-columns: 200px auto 200px 200px 200px;
+/* grid-template-columns: auto auto  ; */
+}
+.iteams{
+    display: grid;
+    background-color: #333;
+    border: 2px solid white;
+    font-size: 30px;
+    padding: 20px 0;
+    text-align: center;
+    border: 2px solid white;
+}
+/* .iteam1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* shorthand */
+    /* grid-column: 1/4; */
+}
+/* .iteam2{ 
+grid-row-start: 2;
+grid-row-end: 5;
+} */
